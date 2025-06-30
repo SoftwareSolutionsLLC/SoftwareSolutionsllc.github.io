@@ -5,19 +5,19 @@ import { ProjectStatusCard } from "@/components/prismui/expandable-card";
 
 export function ComponentPreview() {
   const demoData = {
-    title: "Promo Here",
+    // title: "Promo Here",
     progress: 75,
     dueDate: "Dec 31, 2025",
     contributors: [
-      { name: "Christer Hagen" },
+      { name: "Shirley Lee" },
     ],
     tasks: [
       { title: "Design System Setup", completed: true },
       { title: "Component Development", completed: true },
       { title: "Documentation", completed: false },
     ],
-    githubStars: 1200,
-    openIssues: 5,
+    // githubStars: 1200,
+    // openIssues: 5,
   };
 
   return (
@@ -29,7 +29,7 @@ export function ComponentPreview() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          <span className="text-sm font-medium">Find Out More</span>
+          {/* <span className="text-sm font-medium">Find Out More</span> */}
           <svg
             width="60"
             height="40"

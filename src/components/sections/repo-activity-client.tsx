@@ -55,7 +55,7 @@ function ActivityCard({
 export function RepoActivityContent({ stats }: { stats: RepoStats }) {
   return (
     <section className="container py-20">
-      <div className="text-center mb-16">
+      {/* <div className="text-center mb-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -97,7 +97,7 @@ export function RepoActivityContent({ stats }: { stats: RepoStats }) {
           value={stats.closedIssues}
           description="successfully resolved"
         />
-      </div>
+      </div> */}
     </section>
   );
 }

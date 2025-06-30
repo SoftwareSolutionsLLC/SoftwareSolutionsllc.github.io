@@ -193,7 +193,7 @@ function OpenSourceCard({
           <div className="flex flex-col items-center mt-2">
             <div className="text-7xl font-bold">{stars}</div>
             <div className="text-xl text-muted-foreground mt-2">
-              Github Stars
+              {/* Github Stars */}
             </div>
           </div>
         </motion.a>
@@ -215,7 +215,7 @@ function OpenSourceCard({
         <div className="space-y-4">
           <div>
             <div className="text-3xl font-bold">
-              {contributors.length}+ Contributors
+              {/* {contributors.length}+ Contributors */}
             </div>
             <div className="text-lg text-muted-foreground mt-2">
               Join our growing community
@@ -242,7 +242,7 @@ function OpenSourceContent({
   stars,
   contributors,
   title = "Proudly open-source",
-  description = "Our source code is available on GitHub - feel free to read, review, or contribute to it however you want!",
+  description = "!!",
   buttonText = "Star on GitHub",
 }: Stats & {
   repository: string;

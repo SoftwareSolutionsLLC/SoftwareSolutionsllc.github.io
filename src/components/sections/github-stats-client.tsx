@@ -112,21 +112,21 @@ export function GitHubStatsContent({ stars, contributors }: Stats) {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl font-bold tracking-tight sm:text-6xl mb-4">
-            Proudly open-source
+            Integrated Solutions, Automation Simplified
           </h2>
           <p className="text-xl text-muted-foreground max-w-[800px] mx-auto">
-            Our source code is available on GitHub - feel free to read, review,
-            or contribute to it however you want!
+            {/* Our source code is available on GitHub - feel free to read, review,
+            or contribute to it however you want! */}
           </p>
           <div className="mt-6">
             <Button variant="outline" size="lg" className="gap-2" asChild>
               <a
-                href="https://github.com/Codehagen/Prismui"
+                href="https://www.linkedin.com/company/software-solution-system"
                 target="_blank"
                 rel="noreferrer"
               >
                 <Icons.github className="h-5 w-5" />
-                Star on GitHub
+                {/* Star on GitHub */}
               </a>
             </Button>
           </div>
@@ -143,18 +143,18 @@ export function GitHubStatsContent({ stars, contributors }: Stats) {
             className="relative flex flex-col items-center text-center"
           >
             <motion.a
-              href="https://github.com/Codehagen/Prismui"
+              href="https://github.com/SoftwareSolutionsLLC"
               target="_blank"
               rel="noreferrer"
               className="relative inline-flex flex-col items-center cursor-pointer"
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.2 }}
             >
-              <StarsDecoration />
+              {/* <StarsDecoration /> */}
               <div className="flex flex-col items-center mt-2">
-                <div className="text-7xl font-bold">{stars}</div>
+                {/* <div className="text-7xl font-bold">{stars}</div> */}
                 <div className="text-xl text-muted-foreground mt-2">
-                  Github Stars
+                  {/* Github Stars */}
                 </div>
               </div>
             </motion.a>
@@ -175,11 +175,11 @@ export function GitHubStatsContent({ stars, contributors }: Stats) {
           >
             <div className="space-y-4">
               <div>
-                <div className="text-3xl font-bold">
+                {/* <div className="text-3xl font-bold">
                   {contributors.length}+ Contributors
-                </div>
+                </div> */}
                 <div className="text-lg text-muted-foreground mt-2">
-                  Join our growing community
+                  {/* Join our growing community */}
                 </div>
               </div>
               <a
@@ -188,9 +188,9 @@ export function GitHubStatsContent({ stars, contributors }: Stats) {
                 rel="noreferrer"
                 className="inline-block"
               >
-                <div className="flex justify-center">
+                {/* <div className="flex justify-center">
                   <ContributorAvatars contributors={contributors} />
-                </div>
+                </div> */}
               </a>
             </div>
           </motion.div>

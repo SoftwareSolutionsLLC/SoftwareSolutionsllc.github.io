@@ -53,6 +53,16 @@ export default function Header() {
 
         <div className="flex items-center gap-2">
           <Link
+            href="https://calendly.com/shirley-lee10100/30min"
+            className={buttonVariants({
+              variant: "default",
+              size: "sm",
+            })}
+          >
+            Contact Us
+          </Link>
+          
+          {/* <Link
             href="/updates"
             className={buttonVariants({
               variant: "default",
@@ -60,7 +70,7 @@ export default function Header() {
             })}
           >
             Get Updates
-          </Link>
+          </Link> */}
           <ThemeToggle />
           <div className="lg:hidden">
             {/* <Drawer /> */}

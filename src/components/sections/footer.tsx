@@ -7,14 +7,14 @@ export default function Footer() {
         <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
           Built by{" "}
           <a
-            href="https://x.com/codehagen"
+            href="https://github.com/Codehagen/Prismui"
             target="_blank"
             rel="noreferrer"
             className="font-medium underline underline-offset-4"
           >
             Codehagen
           </a>
-          . The source code is available on{" "}
+          {/* . {" "}
           <a
             href="https://github.com/Codehagen/Prismui"
             target="_blank"
@@ -22,10 +22,10 @@ export default function Footer() {
             className="font-medium underline underline-offset-4"
           >
             GitHub
-          </a>
+          </a> */}
           .
         </p>
-        <div className="flex items-center gap-4">
+        {/* <div className="flex items-center gap-4">
           <a
             href="https://github.com/Codehagen/Prismui"
             target="_blank"
@@ -44,7 +44,7 @@ export default function Footer() {
             <Icons.twitter className="h-5 w-5" />
             <span className="sr-only">Twitter</span>
           </a>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

@@ -173,8 +173,10 @@ export function ShippingVelocityContent({
   componentDates,
 }: ShippingVelocityProps) {
   return (
-    <section className="container relative py-20">
-      <div className="mx-auto max-w-md text-center sm:max-w-xl mb-16">
+    <section className="container relative py-2">
+
+    {/* <section className="container relative py-20"> */}
+      {/* <div className="mx-auto max-w-md text-center sm:max-w-xl mb-16">
         <h2 className="font-display text-4xl font-extrabold leading-tight sm:text-6xl sm:leading-tight">
           Wanna see some{" "}
           <span className="bg-gradient-to-br from-primary to-primary/60 bg-clip-text italic text-transparent">
@@ -185,11 +187,11 @@ export function ShippingVelocityContent({
           Track our journey as we build and ship new components, features, and
           improvements.
         </p>
-      </div>
+      </div> */}
 
-      <ComponentTimeline componentDates={componentDates} />
+      {/* <ComponentTimeline componentDates={componentDates} />
 
-      {/* <div className="mt-10 flex justify-center">
+      <div className="mt-10 flex justify-center">
         <Button
           variant="outline"
           size="lg"

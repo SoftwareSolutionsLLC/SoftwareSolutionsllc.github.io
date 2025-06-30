@@ -30,7 +30,7 @@ function HeroPill() {
         >
           <Icons.logo className="h-4 w-4" />
         </motion.div>
-        <span>New! PrismUI Components</span>
+        <span>Hardware Capbailities - Coming Soon!</span>
         <Icons.chevronRight className="h-4 w-4" />
       </motion.div>
     </Link>
@@ -46,7 +46,7 @@ function HeroContent() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease }}
       >
-        The better way to <span className="text-primary">build apps fast</span>
+        Smart solutions <span className="text-primary">Automation simplified</span>
       </motion.h1>
       <motion.p
         className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8"
@@ -54,8 +54,7 @@ function HeroContent() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.1, duration: 0.8, ease }}
       >
-        A fully customizable component library built on top of shadcn/ui.
-        Beautiful, accessible, and ready for production.
+        Experience smarter workflows, enhanced efficiency, and integrated technology designed to scale with your business needs.
       </motion.p>
       <motion.div
         className="flex flex-col sm:flex-row gap-4 pt-4"
@@ -63,7 +62,7 @@ function HeroContent() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2, duration: 0.8, ease }}
       >
-        <Link
+        {/* <Link
           href="/docs"
           className={cn(
             buttonVariants({ size: "lg" }),
@@ -82,7 +81,7 @@ function HeroContent() {
         >
           <Icons.component className="h-4 w-4" />
           Components
-        </Link>
+        </Link> */}
       </motion.div>
     </div>
   );

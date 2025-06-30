@@ -14,19 +14,45 @@ export const siteConfig = {
   },
   header: [
     {
-      href: "/",
+      href: "https://shirley-software-solutions.github.io/project-embedded/embedded.html",
       label: "Products",
     },
     {
-      href: "/",
+      href: "/https://sw-solution.github.io/",
       label: "Services",
-    },
+       children: [
+      {
+        href: "/services/software-development",
+        label: "Software Development",
+      },
+      {
+        href: "/services/hardware-integration",
+        label: "Hardware Integration",
+      },
+      {
+        href: "/services/iot-solutions",
+        label: "IoT Solutions",
+      },
+      {
+        href: "/services/custom-dashboard",
+        label: "Custom Dashboards",
+      },
+      {
+        href: "/services/mobile-apps",
+        label: "Mobile App Development",
+      },
+      {
+        href: "/services/prototyping-and-design",
+        label: "Prototyping & Design",
+      },
+    ],
+  },
     {
       href: "/",
       label: "Mission",
     },
     {
-      href: "/",
+      href: "https://shirley-software-solutions.github.io/",
       label: "Team",
     },
     // {

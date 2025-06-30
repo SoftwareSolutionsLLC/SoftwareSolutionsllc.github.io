@@ -107,24 +107,23 @@ export function MainFeatures() {
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           viewport={{ once: true }}
         >
-          <Link href={"/docs"}>
+          <Link href={"https://www.linkedin.com/company/software-solution-system"}>
+          {/* <Link href={"/docs"}> */}  
             <Button variant="outline" className="rounded-full mb-4">
-              Components
+              Learn More
             </Button>
           </Link>
           <h2 className="text-3xl font-bold tracking-tight sm:text-5xl mb-4">
-            Everything you need to build modern apps
+            Solving Real-World Problems
           </h2>
           <p className="text-xl text-muted-foreground max-w-[800px] mx-auto">
-            PrismUI provides a comprehensive set of UI components and features
-            to help you build beautiful, responsive, and accessible
-            applications.
+            Our innovative platform combines powerful software with cutting-edge hardware to deliver seamless, automated solutions that simplify your operations and accelerate growth.
           </p>
         </motion.div>
       </div>
 
       <div className="grid gap-8 md:grid-cols-2">
-        <FeatureCard
+        {/* <FeatureCard
           title="Display Cards"
           description="Beautiful, animated display cards with skewed design and hover effects. Perfect for showcasing featured content or important updates."
         >
@@ -163,11 +162,11 @@ export function MainFeatures() {
           <div className="flex items-center justify-center min-h-[300px] rounded-lg bg-muted/50 p-8">
             <LogoCarousel columns={2} />
           </div>
-        </FeatureCard>
+        </FeatureCard> */}
 
         <FeatureCard
-          title="Form Components"
-          description="A collection of form components with built-in validation, error handling, and accessibility features."
+          title="Real-Time Dashboards"
+          description="Powerful, scalable applications designed to automate workflows, analyze data, and provide intuitive dashboards and mobile apps — enabling seamless control and insight across your connected devices."
         >
           <div className="grid grid-cols-2 gap-4 min-h-[300px] rounded-lg bg-muted/50 p-8">
             <div className="h-24 rounded-lg bg-primary/20 animate-pulse" />
@@ -178,8 +177,8 @@ export function MainFeatures() {
         </FeatureCard>
 
         <FeatureCard
-          title="More Components"
-          description="Explore our growing collection of beautifully designed components, from data tables to complex data visualization tools."
+          title="Arduino IoT Solutions"
+          description="Robust physical components including sensors, controllers, and expansion modules that integrate effortlessly with your software to bring smart, automated solutions to life."
         >
           <div className="grid grid-cols-2 gap-4 min-h-[300px] rounded-lg bg-muted/50 p-8">
             <div className="h-24 rounded-lg bg-primary/20 animate-pulse" />

@@ -7,10 +7,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const features = [
   {
     number: "01",
-    title: "Beautiful Components",
+    title: "Design",
     description:
-      "Beautiful components built with React, TypeScript, and Tailwind CSS. From buttons to complex data tables, we've got you covered with our battle-tested designs.",
-    icon: (
+        "",
+      // "Define mission objectives, system requirements, and architecture. Design both software (control, data processing) and hardware (airframe, sensors, communication modules). Use modular and scalable design principles.",
+// “We craft mission-driven, modular designs that ensure flexibility, safety, and future-proof scalability for your unmanned aerial systems.”,
+      icon: (
       <div className="relative w-full h-32 mx-auto grid grid-cols-2 gap-3">
         <div className="space-y-3">
           <div className="h-8 rounded-md bg-primary/20 animate-pulse" />
@@ -25,10 +27,12 @@ const features = [
   },
   {
     number: "02",
-    title: "Ready-to-use Templates",
+    title: "Build & Prototype",
     description:
-      "Landing pages, dashboards, and app templates ready for production. From marketing sites to admin panels, we've got everything you need to ship products faster.",
-    icon: (
+    "",
+      // "Rapidly develop and prototype UAV hardware (using Arduino, embedded systems, sensors) alongside software components (flight control, data analytics, user apps). Leverage simulation and iterative testing to validate performance early.",
+// “Our agile prototyping accelerates innovation, enabling quick validation and refinement of UAV capabilities to meet your unique mission needs.”,
+      icon: (
       <div className="relative w-full h-32 mx-auto">
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="w-full max-w-[240px] rounded-lg bg-muted/50 p-4">
@@ -48,10 +52,12 @@ const features = [
   },
   {
     number: "03",
-    title: "Ship Faster",
+    title: "Integrate & Test",
     description:
-      "Focus on your product, not on building UI components. From startups to enterprises, our battle-tested designs help you convert visitors into happy customers.",
-    icon: (
+        "",
+      // "Seamlessly integrate hardware and software into a cohesive system. Conduct rigorous testing—functional, safety, communication, and compliance testing—to ensure reliability and interoperability with existing systems (e.g., manned aircraft, ground control stations).",
+// “We deliver fully integrated, rigorously tested UAV solutions that operate safely and reliably within complex airspace and operational environments.”,
+      icon: (
       <div className="relative w-full h-32 mx-auto">
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="flex items-center gap-3">
@@ -115,7 +121,7 @@ export function Features() {
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           viewport={{ once: true }}
         >
-          <Button variant="outline" className="rounded-full mb-4">
+          {/* <Button variant="outline" className="rounded-full mb-4">
             How it works
           </Button>
           <h2 className="text-3xl font-bold tracking-tight sm:text-5xl mb-4">
@@ -125,7 +131,7 @@ export function Features() {
             50+ beautiful sections and templates built with React, TypeScript,
             Tailwind CSS, and Framer Motion. Save thousands of hours and convert
             your visitors into customers.
-          </p>
+          </p> */}
         </motion.div>
       </div>
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
